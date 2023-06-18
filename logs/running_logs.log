@@ -184,3 +184,60 @@ Connection: close
 [2023-06-18 02:32:03,447: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2023-06-18 13:04:16,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:04:16,324: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:04:16,328: INFO: common: created directory at: artifacts]
+[2023-06-18 13:05:09,214: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:05:09,218: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:05:09,218: INFO: common: created directory at: artifacts]
+[2023-06-18 13:05:09,222: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 13:07:08,317: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:07:08,337: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:07:08,341: INFO: common: created directory at: artifacts]
+[2023-06-18 13:07:08,345: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 13:13:06,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:13:06,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:13:06,561: INFO: common: created directory at: artifacts]
+[2023-06-18 13:13:06,569: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 13:20:28,753: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:20:28,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:20:28,761: INFO: common: created directory at: artifacts]
+[2023-06-18 13:20:28,765: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 13:35:37,677: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 13:35:37,685: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 13:35:37,693: INFO: common: created directory at: artifacts]
+[2023-06-18 13:35:37,697: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 13:36:59,583: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-18 14:35:03,190: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-18 14:35:03,226: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 14:35:03,235: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 14:35:03,239: INFO: common: created directory at: artifacts]
+[2023-06-18 14:35:03,242: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-18 14:35:08,962: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+x-amz-id-2: ckwrBaQa/RIA1FzUlwLhXjmQ7DRj4Mu20pZXVqqaqyn4xL/aNKpVzVj/rQAx9YvwQ5SC5u1zkyJgGUh0xxzwGQ==
+x-amz-request-id: EJ0736TAGVPJRQ8J
+Date: Sun, 18 Jun 2023 09:05:09 GMT
+Last-Modified: Sat, 17 Jun 2023 19:31:20 GMT
+ETag: "231000623fc407b5ac26c8221e9ddee7"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment
+Accept-Ranges: bytes
+Content-Type: application/zip
+Server: AmazonS3
+Content-Length: 11897626
+Connection: close
+
+]
+[2023-06-18 14:35:09,727: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-06-18 14:35:09,728: INFO: main: *******************]
+[2023-06-18 14:35:09,728: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-06-18 14:35:09,740: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 14:35:09,744: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 14:35:09,745: INFO: common: created directory at: artifacts]
+[2023-06-18 14:35:09,746: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 14:35:11,135: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-18 14:35:12,189: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
