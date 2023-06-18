@@ -246,3 +246,158 @@ x==========x]
 [2023-06-18 15:35:14,063: INFO: common: created directory at: artifacts]
 [2023-06-18 15:35:14,068: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
 [2023-06-18 15:35:14,071: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 16:48:11,714: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 16:48:11,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 16:48:11,729: INFO: common: created directory at: artifacts]
+[2023-06-18 16:48:11,731: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-18 16:48:11,734: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 16:56:41,380: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 16:56:41,386: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 16:56:41,391: INFO: common: created directory at: artifacts]
+[2023-06-18 16:56:41,398: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-18 16:56:41,401: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 16:56:41,403: INFO: common: created directory at: artifacts\training]
+[2023-06-18 17:01:51,055: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 17:01:51,062: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 17:01:51,064: INFO: common: created directory at: artifacts]
+[2023-06-18 17:01:51,070: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-18 17:01:51,073: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 17:01:51,075: INFO: common: created directory at: artifacts\training]
+[2023-06-18 22:47:38,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 22:47:38,832: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 22:47:38,836: INFO: common: created directory at: artifacts]
+[2023-06-18 22:48:30,919: INFO: common: json file saved at: scores.json]
+[2023-06-18 23:02:23,754: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-18 23:02:23,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:02:23,790: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:02:23,790: INFO: common: created directory at: artifacts]
+[2023-06-18 23:02:23,794: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-18 23:02:35,050: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+x-amz-id-2: OkZhEoEtS8DoN6ROIkDpaEukHCN9DQVq7fuenIPYlBq0cSjtwHsXFbqCRxL8qu7ZkQI0qY+wLDo=
+x-amz-request-id: HMM2F1T4FS2E3H0M
+Date: Sun, 18 Jun 2023 17:32:27 GMT
+Last-Modified: Sat, 17 Jun 2023 19:31:20 GMT
+ETag: "231000623fc407b5ac26c8221e9ddee7"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment
+Accept-Ranges: bytes
+Content-Type: application/zip
+Server: AmazonS3
+Content-Length: 11897626
+Connection: close
+
+]
+[2023-06-18 23:02:35,871: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-06-18 23:02:35,875: INFO: main: *******************]
+[2023-06-18 23:02:35,875: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-06-18 23:02:35,887: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:02:35,891: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:02:35,895: INFO: common: created directory at: artifacts]
+[2023-06-18 23:02:35,895: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 23:02:37,047: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-18 23:02:37,687: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-06-18 23:02:37,687: INFO: main: *******************]
+[2023-06-18 23:02:37,687: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-06-18 23:02:37,695: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:02:37,699: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:02:37,699: INFO: common: created directory at: artifacts]
+[2023-06-18 23:02:37,703: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-18 23:02:37,703: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 23:02:37,703: INFO: common: created directory at: artifacts\training]
+[2023-06-18 23:05:01,252: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-06-18 23:05:01,252: INFO: main: *******************]
+[2023-06-18 23:05:01,256: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-06-18 23:05:01,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:05:01,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:05:01,278: INFO: common: created directory at: artifacts]
+[2023-06-18 23:05:52,465: INFO: common: json file saved at: scores.json]
+[2023-06-18 23:05:52,469: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-18 23:12:39,135: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-18 23:12:39,151: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:12:39,159: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:12:39,163: INFO: common: created directory at: artifacts]
+[2023-06-18 23:12:39,163: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-18 23:12:40,329: ERROR: stage_01_data_ingestion: HTTP Error 403: Forbidden]
+Traceback (most recent call last):
+  File "src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 22, in <module>
+    obj.main()
+  File "src/cnnClassifier/pipeline/stage_01_data_ingestion.py", line 14, in main
+    data_ingestion.download_file()
+  File "c:\users\rohan\documents\mlops project\chicken-disease-classification\src\cnnClassifier\components\data_ingestion.py", line 17, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\Rohan\anaconda3\envs\chicken\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+[2023-06-18 23:16:26,415: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-06-18 23:16:26,423: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:16:26,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:16:26,427: INFO: common: created directory at: artifacts]
+[2023-06-18 23:16:26,431: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-18 23:16:31,836: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+x-amz-id-2: ozf+l+raJdIY8cXeURYYOXvAYi3RtXXhp/ztfEyqiGq58sigdJIQbUr8sxdQTKmKGMuFHruv7LA=
+x-amz-request-id: 0A4Y2FEF8HXYNWN0
+Date: Sun, 18 Jun 2023 17:46:28 GMT
+Last-Modified: Sat, 17 Jun 2023 19:31:20 GMT
+ETag: "231000623fc407b5ac26c8221e9ddee7"
+x-amz-server-side-encryption: AES256
+Content-Disposition: attachment
+Accept-Ranges: bytes
+Content-Type: application/zip
+Server: AmazonS3
+Content-Length: 11897626
+Connection: close
+
+]
+[2023-06-18 23:16:32,561: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-06-18 23:16:54,380: INFO: stage_02_prepare_base_model: *******************]
+[2023-06-18 23:16:54,380: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-06-18 23:16:54,388: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:16:54,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:16:54,392: INFO: common: created directory at: artifacts]
+[2023-06-18 23:16:54,396: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-18 23:16:55,509: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-18 23:16:56,490: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-06-18 23:17:11,158: INFO: stage_03_training: *******************]
+[2023-06-18 23:17:11,158: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2023-06-18 23:17:11,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:17:11,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:17:11,178: INFO: common: created directory at: artifacts]
+[2023-06-18 23:17:11,182: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-18 23:17:11,186: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2023-06-18 23:17:11,190: INFO: common: created directory at: artifacts\training]
+[2023-06-18 23:21:00,243: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-06-18 23:21:25,940: INFO: stage_04_evaluation: *******************]
+[2023-06-18 23:21:25,940: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-06-18 23:21:25,956: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 23:21:25,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 23:21:25,983: INFO: common: created directory at: artifacts]
+[2023-06-18 23:22:33,774: INFO: common: json file saved at: scores.json]
+[2023-06-18 23:22:33,778: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
